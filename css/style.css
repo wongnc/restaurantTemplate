@@ -1,0 +1,377 @@
+body{
+	width:95%; 
+	margin:0 auto;
+}
+
+
+/*hero background*/
+#hero{
+	margin-top: 0px;
+	background: 
+		linear-gradient(rgba(16,4,4,0.5),
+						rgba(16,4,4,0.5)),
+	url("../pics/breakfast.jpg");
+	background-size:100% 100%;
+	height: 500px;
+	background-repeat:no-repeat;
+}
+
+/*begin hero-nav*/
+#hero-nav{
+	width:70%;
+	margin: 0 auto;
+}
+#hero-nav ul {
+	border-bottom: 1px solid white;
+}
+
+#hero-nav ul li{
+	list-style-type:none;
+	padding-right: 20px;
+	display: inline;
+	padding-top: 15px;
+}
+
+#hero-nav #logo{
+	font-family:'Yesteryear', cursive;
+	font-size: 30px;
+}
+
+#hero-nav a{
+	font-family: 'Vollkorn', sans-serif;
+	font-size: 15px;
+	text-decoration:none;
+	color:white;
+}
+/*end hero-nav*/
+
+/*begin hero-text*/
+#hero-text{
+	width: 70%;
+	margin:0 auto;
+	padding-top: 50px;
+}
+#hero-text .col-md-7 h2{
+	font-family:'Yesteryear', cursive;
+	color:#C19D7F;
+	font-size: 40px;
+	text-align:center;
+}
+
+#hero-text #icon{
+	margin:auto;
+	margin-top: 50px;
+}
+
+#hero-text #italian{
+	color:white;
+	font-size:20px;
+	text-align:center;
+	padding-right: 215px;
+	margin-bottom: 10px;
+}
+
+#hero-text .col-md-7 p{
+	color:white;
+	text-align:center;
+	padding-right:110px;
+	margin-bottom: 0px;
+}
+
+#hero-text #box1{
+	background-color:black;
+	width: 250px;
+	margin-top: 200px;
+	padding-bottom: 10px;
+}
+
+#box1 h4{
+	color:#C19D7F;
+}
+
+#box1 p{
+	color:white;
+	font-size: 10px;
+}
+
+#box1 #viewMap1{
+	border-bottom: 1px solid #C19D7F;
+	color:#C19D7F;
+	text-decoration: none;
+}
+
+#box1 #hours{
+	padding-bottom: 5px;
+}
+
+#box1 #tableRes{
+	background-color: black;
+	border: 1px solid #C19D7F;
+	color:white;
+	padding-bottom: 3px;
+	margin-top: 5px;
+}
+
+#box1 #tableButton{
+	text-align:center;
+}
+
+/*end hero-text*/
+
+/*begin about*/
+#about{
+	padding-top: 80px;
+	width: 70%;
+	margin: 0 auto ;
+	height: 500px;
+}
+#about .col-md-7 h2{
+	color:#C19D7F;
+	font-family:'Yesteryear', cursive;
+	font-size: 40px;
+	text-align:center;
+}
+
+#about .col-md-7 p{
+	text-align:center;
+}
+
+#about .col-md-5 #bread {
+	margin-top: 15px;
+	width:250px;
+	height: 350px;
+	margin-left: -15px;
+}
+
+/*end about*/
+
+/*begin specialities*/
+#specialities-whole{
+	width:70%;
+	margin:0 auto;
+}
+#specialities{
+	margin-top: 0px;
+	background: 
+		linear-gradient(rgba(16,4,4,0.5),
+						rgba(16,4,4,0.5)),
+	url("../pics/pizza.jpg");
+	background-size:100% 100%;
+	height: 450px;
+	background-repeat:no-repeat;
+}
+
+#specialities h2{
+	padding-top:20px;
+	color:white;
+	font-family:'Yesteryear', cursive;
+	font-size: 40px;
+	text-align:center;
+}
+
+#specialities p{
+	text-align:center;
+	color:white;
+}
+
+#specialities .row{
+	margin-top: 40px;
+}
+
+#specialities #specialities-txt{
+	background-color:white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#specialities #specialities-txt p{
+	color:#C19D7F;
+	font-size: 15px;
+}
+
+/*end specialties*/
+
+/*begin menu*/
+#menu{
+	background-color: black;
+}
+
+#menu-txt{
+	width:70%;
+	margin: 0 auto;
+}
+
+#menu #menu-title{
+	font-size: 15px;
+	padding-bottom: -5px;
+	padding-top: 8px;
+	font-weight: bold;
+}
+#menu #menu-txt h2{
+	color:#C19D7F;
+	font-family:'Yesteryear', cursive;
+	font-size: 40px;
+	margin-top:0px;
+	padding-top: 40px;
+	text-align:center;
+}
+
+#menu-txt .col-md-1 #price{
+	padding-top: 50px;
+	font-size: 30px;
+}
+
+#menu-txt #menu-desc{
+	text-align:center;
+}
+
+#menu #pizza{
+	text-align:center;
+	color:#C19D7F;
+	font-size: 20px;
+}
+
+#menu #desserts{
+	text-align:center;
+	color:#C19D7F;
+	font-size: 20px;
+}
+
+#menu p{
+	color:white;
+}
+
+#menu .col-md-1{
+	padding-left: 5px;
+}
+
+#menu #allMenu{
+	background-color:#C19D7F;
+	padding: 10px 10px;
+	margin: 0 auto;
+}
+
+#menu #menuButton{
+	text-align:center;
+	padding-bottom: 30px;
+}
+/*end menu*/
+
+/*begin reservations*/
+#reservations{
+	margin-top: 0px;
+	background: 
+		linear-gradient(rgba(16,4,4,0.5),
+						rgba(16,4,4,0.5)),
+	url("../pics/table.jpg");
+	background-size:100% 100%;
+	height: 400px;
+	background-repeat:no-repeat;
+}
+
+#reservations-txt{
+	width: 70%;
+	margin: 0 auto;
+}
+#reservations h2{
+	color:white;
+	font-family:'Yesteryear', cursive;
+	font-size: 40px;
+	margin-top:0px;
+	padding-top: 20px;
+	text-align:center;
+}
+
+#reservations .row{
+	margin-top: 20px;
+}
+
+#reservations p{
+	color:white;
+	text-align:center;
+}
+
+#reservations #res-button {
+	text-align:center;
+	padding-top: 30px;
+}
+
+#reservations button{
+	background-color:#C19D7F;
+	padding: 5px 25px;
+	font-size: 15px;
+	font-weight: bold;
+}
+/*end reservations*/
+
+/*begin contact*/
+#contact{
+	background-color:black;
+}
+
+#contact-txt{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#contact-txt #addressTitle, #contact-txt #HoursTitle,
+#contact-txt #socialTitle{
+	font-size: 13px;
+}
+
+#contact-txt #socialTitle{
+	margin-bottom:-10px;
+}
+
+#contact p{
+	color:white;
+	font-size: 10px;
+}
+
+#tableButton #tableRes{
+	background-color: black;
+	border: 1px solid #C19D7F;
+	color:white;
+	padding: 5px 15px;
+	margin-top: 15px;
+}
+
+#address #viewMap{
+	background-color: black;
+	border: 1px solid #C19D7F;
+	color:white;
+	padding: 5px 15px;
+	margin-top: 5px;
+}
+
+#address #viewButton{
+	padding-top: 8px;
+}
+
+#address #addressTxt{
+	line-height: 200%;
+}
+
+#social i{
+	background-color: black;
+	border: 1px solid #C19D7F;
+	color:white;
+	padding: 5px 8px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+#social .row{
+	padding-top: 20px;
+}
+
+/*end contact*/
+
+/*begin footer*/
+	#footer p{
+		padding-top: 10px;
+		color:#C19D7F;
+		padding-bottom: 5px;
+	}
+/*end footer*/
